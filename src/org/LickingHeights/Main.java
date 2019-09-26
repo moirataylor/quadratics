@@ -14,11 +14,19 @@ public class Main {
        //todo do calculation
         axisOfSymmetry = -b/(2*a);
         discriminant = (b*b)-4*(a*c);
+        if(discriminant >0){
+            System.out.println("There are two real solutions");
+        }
+        else if (discriminant == 0){
+            System.out.println("There is one real solution");
+        }
+        else{
+            System.out.println("There are NO real solutions");
+        }
         //todo print results
         System.out.println("Axis of Symmetry: "+ axisOfSymmetry);
         System.out.println("Discriminant: "+ discriminant );
         //todo ,not in code, check for accuracy
-        
         //todo initialize scanner and redo the initialize area
         //todo double check results
 
