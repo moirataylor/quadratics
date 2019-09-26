@@ -7,9 +7,10 @@ public class Main {
         //todo declare variables a,b,c,discriminant, axis of symmetry, parabola facing, x, y
        double a,b,c,discriminant,axisOfSymmetry,x,y;
        String parabolaFacing;
-
-
-        //todo initialize manually
+       //todo initialize manually
+       a=5;
+       b=3;
+       c=1;
         //todo do calculation
         //todo print results
         //todo ,not in code, check for accuracy
